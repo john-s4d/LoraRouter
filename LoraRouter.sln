@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChirpStack", "ChirpStack\ChirpStack.csproj", "{D3696AA5-BFA2-4270-9D8F-11FC890B147A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemtechUdp", "SemtechUdp\SemtechUdp.csproj", "{3C861599-FC48-4447-9B26-DBAB62CC49E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoraRouter", "Console\LoraRouter.csproj", "{E3B2E1DF-91B7-4EFD-BFBE-F48CF11F8E3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoraRouter.Lib", "LoraRouter\LoraRouter.Lib.csproj", "{7BE039DA-F1C4-435D-B95B-0CF27D097F2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3696AA5-BFA2-4270-9D8F-11FC890B147A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3696AA5-BFA2-4270-9D8F-11FC890B147A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3696AA5-BFA2-4270-9D8F-11FC890B147A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3696AA5-BFA2-4270-9D8F-11FC890B147A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C861599-FC48-4447-9B26-DBAB62CC49E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C861599-FC48-4447-9B26-DBAB62CC49E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C861599-FC48-4447-9B26-DBAB62CC49E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C861599-FC48-4447-9B26-DBAB62CC49E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B2E1DF-91B7-4EFD-BFBE-F48CF11F8E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B2E1DF-91B7-4EFD-BFBE-F48CF11F8E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B2E1DF-91B7-4EFD-BFBE-F48CF11F8E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B2E1DF-91B7-4EFD-BFBE-F48CF11F8E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE039DA-F1C4-435D-B95B-0CF27D097F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE039DA-F1C4-435D-B95B-0CF27D097F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE039DA-F1C4-435D-B95B-0CF27D097F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE039DA-F1C4-435D-B95B-0CF27D097F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01342851-213D-44A7-9941-6A204BB91773}
+	EndGlobalSection
+EndGlobal
