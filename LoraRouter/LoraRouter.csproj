@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ChirpStack\ChirpStack.csproj" />
-    <ProjectReference Include="..\LoraRouter\LoraRouter.Lib.csproj" />
+    <ProjectReference Include="..\LoraRouter.Lib\LoraRouter.Lib.csproj" />
     <ProjectReference Include="..\SemtechUdp\SemtechUdp.csproj" />
   </ItemGroup>
 

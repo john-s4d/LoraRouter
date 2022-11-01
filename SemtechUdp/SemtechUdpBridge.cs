@@ -46,7 +46,7 @@ namespace LoraRouter.SemtechUdp
         {
             if (IsStarted) { return; }
 
-            _logger?.Write(this, LogLevel.INFO, "starting listener");
+            _logger?.Write(this, LogLevel.INFO, "starting SemtechUdp listener");
 
             IsStarted = true;
 
@@ -59,7 +59,7 @@ namespace LoraRouter.SemtechUdp
         {
             _listenClient = new UdpClient((int)_config[SemtechUdpConfig.PORT]);
 
-            _logger?.Write(this, LogLevel.INFO, "listener thread started");
+            _logger?.Write(this, LogLevel.INFO, "SemtechUdp listener thread started");
 
             while (IsStarted)
             {
@@ -153,7 +153,7 @@ namespace LoraRouter.SemtechUdp
         {
             if (!IsStarted || _listenClient == null || _listenThread == null)
             {
-                _logger?.Write(this, LogLevel.ERROR, $"Send error: Not Connected.");
+                _logger?.Write(this, LogLevel.ERROR, $"SemtechUdp Send error: Not Connected.");
                 return;
             }
             try
@@ -163,7 +163,7 @@ namespace LoraRouter.SemtechUdp
             }
             catch (Exception e)
             {
-                _logger?.Write(this, LogLevel.ERROR, $"Send error: {e}");
+                _logger?.Write(this, LogLevel.ERROR, $"SemtechUdp Send error: {e}");
             }
         }
 
@@ -171,14 +171,14 @@ namespace LoraRouter.SemtechUdp
         {
             if (!IsStarted || _listenClient == null || _listenThread == null) { return; }
 
-            _logger?.Write(this, LogLevel.INFO, "stopping listener");
+            _logger?.Write(this, LogLevel.INFO, "stopping SemtechUdp listener");
 
             IsStarted = false;
             _listenClient.Close();
             _listenThread.Join(5000);
             _listenThread = null;
 
-            _logger?.Write(this, LogLevel.INFO, "listener thread stopped");
+            _logger?.Write(this, LogLevel.INFO, "SemtechUdp listener thread stopped");
         }
 
         public T CloneAs<T>(IPacket packet)

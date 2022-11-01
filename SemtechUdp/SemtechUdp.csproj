@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LoraRouter\LoraRouter.Lib.csproj" />
+    <ProjectReference Include="..\LoraRouter.Lib\LoraRouter.Lib.csproj" />
   </ItemGroup>
 
 </Project>
