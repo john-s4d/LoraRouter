@@ -6,8 +6,6 @@ The goal was to work closer to the packet and gateway layer than most applicatio
 
 The repository explores packet parsing, gateway-facing communication, routing logic, and low-level handling of LoRa network traffic. It reflects an effort to better understand and control how messages moved through a LoRa-based system, with the emphasis on infrastructure and protocol behavior rather than end-user applications.
 
-This repository is incomplete and should be treated as an archival prototype. It captures an exploratory attempt to build a custom LoRa routing layer, but it was never developed into a polished or production-ready system.
-
 ## Concepts explored
 
 - LoRa and LoRaWAN packet handling
